@@ -1,0 +1,17 @@
+EXT4 vs MINI-EXT TIME EVALUATION
+===============================
+
+[EXT4]
+Create 3000 dirs: 0m10.179s
+Delete 3000 dirs: 0m10.096s
+Create 100 files (1MB): 0m0.439s
+Read 100 files (1MB): 0m0.371s
+Delete 100 files (1MB): 0m0.575s
+
+[MINI-EXT]
+Create 3000 dirs: 0m9.274s
+Delete 3000 dirs: 0m9.227s
+Create 100 files (1MB): 0m0.260s
+Read 100 files (1MB): 0m0.258s
+Delete 100 files (1MB): 0m0.441s
+
