@@ -32,26 +32,26 @@ The filesystem operates on a virtual disk image (`disk.img`), supports basic fil
 ## 3. Project Structure
 
 Project_File_System/
-└── src/
-├── main.c # CLI
-├── mkfs.c # Filesystem formatter
-├── eval.sh # Evaluation script
-│
-├── block_layer/
-│ ├── disk.c / disk.h
-│ ├── bitmap.c / bitmap.h
-│ ├── super_block.c / super_block.h
-│ ├── group_desc.c / group_desc.h
-│ ├── inode.c / inode.h
-│ └── inode_table.c / inode_table.h
-│
-├── directory/
-│ ├── directory.c / directory.h
-│ ├── path.c / path.h
-│ └── dir_entry.h
-│
-└── file_operator/
-├── file.c / file.h
+    └── src/
+    ├── main.c # CLI
+    ├── mkfs.c # Filesystem formatter
+    ├── eval.sh # Evaluation script
+    │
+    ├── block_layer/
+    │ ├── disk.c / disk.h
+    │ ├── bitmap.c / bitmap.h
+    │ ├── super_block.c / super_block.h
+    │ ├── group_desc.c / group_desc.h
+    │ ├── inode.c / inode.h
+    │ └── inode_table.c / inode_table.h  
+    │
+    ├── directory/
+    │ ├── directory.c / directory.h
+    │ ├── path.c / path.h
+    │ └── dir_entry.h
+    │
+    └── file_operator/
+    ├── file.c / file.h
 
 ---
 
