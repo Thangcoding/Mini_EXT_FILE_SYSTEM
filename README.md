@@ -30,7 +30,7 @@ The filesystem operates on a virtual disk image (`disk.img`), supports basic fil
 ---
 
 ## 3. Project Structure
-
+```text
 Project_File_System/
     └── src/
     ├── main.c # CLI
@@ -52,7 +52,7 @@ Project_File_System/
     │
     └── file_operator/
     ├── file.c / file.h
-
+```
 ---
 
 ## 4. Build Instructions
