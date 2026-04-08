@@ -57,11 +57,6 @@ Project_File_System/
 
 ## 4. Build Instructions
 
-
----
-
-## 4. Build Instructions
-
 Compile the project:
 
 ```bash
